@@ -2,7 +2,6 @@
 var setFailedLogin = function() {
   document.getElementById('mainCard').innerHTML =
     '<h1 id="message" class="text-danger text-center">Intruder Detected</h1><a href="/"><button type="button" class="btn btn-danger btn-lg btn-block">Try Again</button></a>'
-
   document.querySelector('#cardHeader').innerHTML = 'Notifying Authorities'
 }
 
