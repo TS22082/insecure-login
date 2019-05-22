@@ -1,14 +1,14 @@
 //create a function for a failed attempt
 var setFailedLogin = function() {
   document.getElementById('mainCard').innerHTML =
-    '<h1 id="message" class="text-danger text-center">Intruder Detected</h1><a href="/"><button type="button" class="btn btn-danger btn-lg btn-block">Try Again</button></a>'
+    '<h1 id="message" class="text-danger text-center">Intruder Detected</h1>'
   document.querySelector('#cardHeader').innerHTML = 'Notifying Authorities'
 }
 
 //create a function for a successful login
 var setSuccessLogin = function() {
   document.getElementById('mainCard').innerHTML =
-    '<h1 id="message" class="text-success text-center">User Authenticated</h1><a href="/"><button type="button" class="btn btn-danger btn-lg btn-block">Sign out</button></a>'
+    '<h1 id="message" class="text-success text-center">User Authenticated</h1><a href="/">'
   document.querySelector('#message').innerHTML = 'Access Granted'
   document.querySelector('#cardHeader').innerHTML = 'Success'
 }
