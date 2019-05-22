@@ -1,0 +1,19 @@
+.nav {
+  height: 10vh;
+}
+
+.main {
+  min-height: 90vh;
+}
+
+.card-row {
+  height: 90vh;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(0, -50%);
+}
